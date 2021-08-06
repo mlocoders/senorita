@@ -23,9 +23,9 @@ YOU CAN CLONE THIS BOT 🥰 BUT DONT FORGET TO GIVE STAR BUDDY
 
 ###CONTRIBUTORS
 
-🔥 [DEV OF SENORITA](t.me/your_handler) 🔥
-🔥 [SENORITA OWNER](t.me/mbbs_lover)🔥
-🔥 [INITIAL REPO SOURCE](t.me/Surv_ivor)🔥
+🔥 [DEV OF SENORITA](https://t.me/your_handler) 🔥
+🔥 [SENORITA OWNER](https://t.me/mbbs_lover)🔥
+🔥 [INITIAL REPO SOURCE](https://t.me/Surv_ivor)🔥
 
 
 
