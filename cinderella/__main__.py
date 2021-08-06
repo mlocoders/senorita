@@ -173,10 +173,13 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="◼️HELPS AND COMMANDS❔",callback_data="help_back"),InlineKeyboardButton(text="MY OWNER⚡️",url="https://t.me/mbbs_lover")]]
-    keyboard = [[InlineKeyboardButton(text="🔱✪𝗠𝗟𝗢 𝗘𝗠𝗣𝗜𝗥𝗘✪",url="https://t.me/MLO_EMPIRE"),InlineKeyboardButton(text="🔴SPAMREPORTER🔴",url="https://t.me/spamreporterr")]]
+    keyboard = [[InlineKeyboardButton(text="◼️HELPS AND COMMANDS❔",callback_data="help_back"),
+                 InlineKeyboardButton(text="MY OWNER⚡️",url="https://t.me/mbbs_lover")]]
+    keyboard = [[InlineKeyboardButton(text="🔱✪𝗠𝗟𝗢 𝗘𝗠𝗣𝗜𝗥𝗘✪",url="https://t.me/MLO_EMPIRE"),
+                 InlineKeyboardButton(text="🔴SPAMREPORTER🔴",url="https://t.me/spamreporterr")]]
     keyboard = [[InlineKeyboardButton(text="♦️SUPPORT CHAT💬",url="https://t.me/SENORITA_UPDATES")]]
-    keyboard += [[InlineKeyboardButton(text="🔲 CONNCET 𝐒𝐄𝐍𝐎𝐑𝐈𝐓𝐀™🇮🇳 TO YOUR GROUP🔲", url="http://t.me/MissSenorita_bot?startgroup=true"),InlineKeyboardButton(text="🔥◾️NETWORK◾️🔥",url="https://t.me/MLO_NETWORK")]]
+    keyboard += [[InlineKeyboardButton(text="🔲 CONNCET 𝐒𝐄𝐍𝐎𝐑𝐈𝐓𝐀™🇮🇳 TO YOUR GROUP🔲", url="http://t.me/MissSenorita_bot?startgroup=true"),
+                 InlineKeyboardButton(text="🔥◾️NETWORK◾️🔥",url="https://t.me/MLO_NETWORK")]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
