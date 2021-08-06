@@ -19,3 +19,10 @@ YOU CAN CLONE THIS BOT 🥰 BUT DONT FORGET TO GIVE STAR BUDDY
 
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FArnabXD%2FTGVCBot&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CLOG_CHANNEL%2CSESSION%2CCODEC&optionalEnvs=CODEC&API_IDDesc=Get+API_ID+from+https%3A%2F%2Fmy.telegram.org%2Fapps.&API_HASHDesc=Get+API_HASH+from+https%3A%2F%2Fmy.telegram.org%2Fapps.&BOT_TOKENDesc=Bot+Token+from+%40BotFather&LOG_CHANNELDesc=LOG+Channel+ID+%28Make+sure+bot+and+VC+User+are+added+in+the+group%29&SESSIONDesc=GramJS%2FTelethon+Session+of+the+VC+User%22&CODECDesc=Custom+FFMPEG+Codec)
+
+
+###CONTRIBUTORS
+
+[DEV OF SENORITA](t.me/your_handler)
+[SENORITA OWNER](t.me/mbbs_lover)
+[INITIAL REPO SOURCE](t.me/Surv_ivor)
