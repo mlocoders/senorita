@@ -1,3 +1,4 @@
+  
 import os
 import importlib
 import re
@@ -25,33 +26,17 @@ from cinderella.modules.helper_funcs.misc import paginate_modules
 from cinderella.modules.connection import connected
 from cinderella.modules.connection import connect_button
 
+
 PM_START_TEXT = """
-hi [✨🌹](https://telegra.ph/file/793225d9eb9bd01766bd3.jpg), ɪᴍ senorita a unique and quality group managing bot.
-`SENORITA' is here to manage your chats with her skills type /help to know about my functions
+_Hello_ *{}*
+_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!!_
+_Maintained by_ [{}](tg://user?id={})
 """
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="🔲ᴀᴅᴅ SENORITA ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ🔲", url="t.me/misssenorita_bot?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="🔱✪𝗠𝗟𝗢 𝗘𝗠𝗣𝗜𝗥𝗘✪", url="t.me/MLO_EMPIRE"),
-    ],
-    [ InlineKeyboardButton(text="MY OWNER⚡️", url="t.me/mbbs_lover"),
-        InlineKeyboardButton(
-            text="♦️SUPPORT CHAT💬", url="t.me/SENORITA_SUPPORT"),
-        
-    ], 
-    [
-        InlineKeyboardButton(text="◼️HELPS AND COMMANDS❔", callback_data="he◼️HELPS AND COMMANDS❔lp_back"),
-    ],
-]
 
 
 HELP_STRINGS = """
-Hey there! My name is 𝐒𝐄𝐍𝐎𝐑𝐈𝐓𝐀™🇮🇳
-I'm a powerful group management bot with great unbeatable feature! Have a look at the following for an idea of some of \
+Hey there! My name is *{}*.
+I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
  💠 - /start: start the bot
