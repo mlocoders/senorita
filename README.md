@@ -43,8 +43,7 @@ ANY PROBLEM RELATED TO BOT CONTACT US IN SUPPORT GROUP   [CLICK HERE FOR SENORIT
 
 
 
-
-              [![SENORITA](https://telegra.ph/file/793225d9eb9bd01766bd3.jpg)]
+[![SENORITA](https://telegra.ph/file/793225d9eb9bd01766bd3.jpg)]
 
 
 
