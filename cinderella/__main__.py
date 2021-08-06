@@ -25,9 +25,8 @@ from cinderella.modules.helper_funcs.misc import paginate_modules
 from cinderella.modules.connection import connected
 from cinderella.modules.connection import connect_button
 
-
 PM_START_TEXT = """
-hi [✨🌹](https://telegra.ph/file/793225d9eb9bd01766bd3.jpg), ɪᴍ senorita a unique and quality group managing bot go to the buttons below for more info.
+hi [✨🌹](https://telegra.ph/file/793225d9eb9bd01766bd3.jpg), ɪᴍ senorita a unique and quality group managing bot.
 `SENORITA' is here to manage your chats with her skills type /help to know about my functions
 """
 buttons = [
@@ -43,12 +42,7 @@ buttons = [
         InlineKeyboardButton(
             text="♦️SUPPORT CHAT💬", url="t.me/SENORITA_SUPPORT"),
         
-    ],
-    [
-        InlineKeyboardButton(text="🔴SPAMREPORTER🔴", url="t.me/spamreporterr"),
-        InlineKeyboardButton(
-            text="🔥◾️NETWORK◾️🔥", url="t.me/MLO_NETWORK"),
-    ],
+    ], 
     [
         InlineKeyboardButton(text="◼️HELPS AND COMMANDS❔", callback_data="he◼️HELPS AND COMMANDS❔lp_back"),
     ],
